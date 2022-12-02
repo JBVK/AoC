@@ -14,4 +14,5 @@ for elf in data:
     else:
       currentCalories = 0
 
+  caloriesFile.close()
 print(mostCalories)
